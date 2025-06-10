@@ -22,6 +22,7 @@ public class HandlingSelectingDropDOwn {
         Select select=new Select(element);
 
         select.selectByValue("option2");
+
 //
 //
         Thread.sleep(3000);
@@ -36,12 +37,12 @@ public class HandlingSelectingDropDOwn {
 //
 //        Thread.sleep(3);
 
-   //     select.selectByContainsVisibleText("Opt");
+       select.selectByContainsVisibleText("Opt");
 
 
-//        List<WebElement> options = select.getOptions();
-//
-//        options.forEach (   webElement -> System.out.println( webElement.getText()));
+        List<WebElement> options = select.getOptions();
+
+        options.forEach (   webElement -> System.out.println( webElement.getText()));
 
 
         driver.quit();

@@ -28,7 +28,7 @@ public class CaptureScreenshot {
 
         System.out.println(screenshotAs.getAbsolutePath());
 
-        FileHandler.copy(screenshotAs,new File("src/main/resources/Screenshit/chrome3.png"));
+        FileHandler.copy(screenshotAs,new File("src/main/resources/Screenshit/chrome5.png"));
 
         chromeDriver.quit();
     }
