@@ -32,4 +32,5 @@ public class CaptureScreenshot {
 
         chromeDriver.quit();
     }
+
 }

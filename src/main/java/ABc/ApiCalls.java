@@ -3,6 +3,7 @@ package ABc;
 
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
+import org.testng.annotations.Test;
 
 public class ApiCalls {
 
@@ -10,6 +11,7 @@ public class ApiCalls {
 
 
    // "https://retargetcommon.free.beeceptor.com/getToolName"
+
     public Response getToolName()
     {
        return RestAssured.given().log().all()
