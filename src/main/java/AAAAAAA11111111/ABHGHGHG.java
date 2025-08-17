@@ -27,6 +27,9 @@ public class ABHGHGHG {
         }
 
         System.out.println(hm);
+        System.out.println(hm);System.out.println(hm);
+        System.out.println(hm);
+
 
 
 
