@@ -14,6 +14,8 @@ public class learningGit {
         System.out.print(arr[i]+" ");
         System.out.print(arr[1]+" ");
         System.out.print(arr[2]+" ");System.out.print(arr[3]+" ");
+        System.out.print(arr[1]+" ");
+        System.out.print(arr[2]+" ");System.out.print(arr[3]+" ");
 
 
     }
